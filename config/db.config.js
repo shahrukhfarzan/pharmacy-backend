@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-let url = `mongodb+srv://rootuser:UJP0u4KjtnbqTqZS@cluster0.l3qyg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+let url = `mongodb+srv://shahrukh:farzan0786@cluster0.olplg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const dbConnection = (resolve) => {
   mongoose.connect(url, (err) => {
     if (err) return resolve(0);
